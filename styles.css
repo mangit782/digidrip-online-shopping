@@ -1,0 +1,23 @@
+/* Custom styles for DigiDrip clone */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: #1a202c; /* Tailwind's gray-900 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:focus,
+input:focus,
+select:focus {
+  outline: 2px solid #f97316; /* Tailwind orange-500 */
+  outline-offset: 2px;
+}
+
+/* Additional spacing or overrides can be added here */
